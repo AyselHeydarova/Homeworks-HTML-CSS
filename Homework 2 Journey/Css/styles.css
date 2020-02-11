@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.green {
+    color: #3cb878;
+}
+
+.clear-fix {
+    clear: both;
+}
+.background {
+    background: url("../Img/background.png") no-repeat center;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.header {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up {
+    width: 35%;
+    background-color: white;
+    color: black;
+    margin: 80px auto;
+    padding: 30px 70px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.signup-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    position: relative;
+}
+.signup-head::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #3cb878;
+    position:absolute;
+    top:5px;
+    left:-70px;
+}
+
+
+.sign-up-text {
+    font-size: 25px;
+}
+
+.log-in  {
+    font-size: 16px;
+}
+
+.social-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fb {
+    background-color: #305db8;
+    width: 49%;
+    border-radius: 5px;
+    padding: 20px 0;
+    text-decoration: none;
+    color: white;
+}
+
+.google {
+    background-color: #df4a32;
+    width: 49%;
+    border-radius: 5px;
+    padding: 20px 0;
+    text-decoration: none;
+    color: white;
+}
+
+.sign-up input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #eaeaea;
+    margin-top: 10px;
+    opacity: 0.5;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+input[type="checkbox"] {
+    width: 5px;
+}
+.terms {
+    /*display: inline-block;*/
+}
+
+.creat-account {
+    width: 100%;
+    background-color: #3cb878;
+    color: white;
+    padding: 20px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
