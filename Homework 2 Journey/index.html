@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <title>Journey</title>
     <link rel="stylesheet" href="Css/styles.css">
+    <script src="https://kit.fontawesome.com/2171ca8ca9.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="background">
         <header class="header">
             <h1 class="header-logo">JOURNEY</h1>
             <div class="header-register">
-                <div class="header-icons"></div>
+                <div class="header-icons">
+
+                </div>
                 <p class="header-welcome">Welcome, <span class="green">Login in</span> or <span class="green">Sign Up</span></p>
             </div>
         </header>
@@ -23,8 +26,14 @@
             </div>
 
             <div class="social-btns">
-                <a href="#" class="fb">Facebook</a>
-                <a href="#" class="google">Google</a>
+                <a href="#" class="fb"><i class="fab fa-facebook-f"></i>Facebook</a>
+                <a href="#" class="google"><i class="fab fa-google-plus-g"></i>Google</a>
+            </div>
+
+            <div class="or">
+                <div class="line"></div>
+                <p>or</p>
+                <div class="line"></div>
             </div>
 
             <input type="text" placeholder="First Name">
@@ -32,8 +41,10 @@
             <input type="email" placeholder="Email">
             <input type="password" placeholder="Choose Password">
             <input type="password" placeholder="Confirm Password">
-            <input type="checkbox">
-            <p class="terms">Agree our <span class="green">Terms & Conditions</span></p>
+            <div class="conditions">
+                <input type="checkbox" id="terms">
+                <label for="terms">Agree our <span class="green">Terms & Conditions</span></label>
+            </div>
             <button class="creat-account">Create Account</button>
         </form>
     </div>
