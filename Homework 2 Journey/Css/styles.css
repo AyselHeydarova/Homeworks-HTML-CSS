@@ -36,6 +36,14 @@
     margin-right: 20px;
 }
 
+.header-icons:hover {
+    background-image: url("../Img/green_sprites.png");
+    background-size: cover;
+    background-position: center;
+    width: 120px;
+    height: 20px;
+    margin-right: 20px;
+}
 .header-register {
     display: flex;
     justify-content: flex-end;
@@ -43,7 +51,7 @@
 
 
 .sign-up {
-    width: 35%;
+    width: 450px;
     background-color: white;
     color: black;
     margin: 80px auto;
@@ -85,8 +93,10 @@
 }
 
 .social-btns i {
-    padding: 0 20px;
+    padding: 5px 10px;
+    margin-right: 8px;
 }
+
 
 .fb {
     background-color: #305db8;
@@ -95,6 +105,15 @@
     padding: 20px 0;
     text-decoration: none;
     color: white;
+}
+
+.fb i {
+    border-right: 1px solid #224387;
+    margin-left: 5px;
+}
+
+.google i {
+    border-right: 1px solid #af3a28;
 }
 
 .google {
