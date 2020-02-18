@@ -13,6 +13,7 @@
     background: url("../Img/background.png") no-repeat center;
     background-size: cover;
     padding-bottom: 50px;
+    height: 100vh;
 }
 .header {
     background-color: rgba(0, 0, 0, 0.4);
@@ -28,25 +29,59 @@
     transition: 1s;
 }
 .header-icons {
-    background-image: url("../Img/css_sprites.png");
-    background-size: cover;
-    background-position: center;
-    width: 120px;
-    height: 20px;
+    width: 100px;
+    height: 30px;
     margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.header-icons:hover {
-    background-image: url("../Img/green_sprites.png");
-    background-size: cover;
-    background-position: center;
-    width: 120px;
-    height: 20px;
-    margin-right: 20px;
+.calendar {
+    background-image: url("../Img/css_sprites.png");
+    background-position: -5px -3px;
+    width: 30px;
+    height: 30px;
 }
+
+.compass {
+    background-image: url("../Img/css_sprites.png");
+    background-position: -45px -3px;
+    width: 30px;
+    height: 30px;
+}
+
+.forum {
+    background-image: url("../Img/css_sprites.png");
+    background-position: -90px -3px;
+    width: 30px;
+    height: 30px;
+}
+
+.calendar:hover {
+    background-image: url("../Img/green_sprites.png");
+    background-position: -5px -3px;
+    width: 30px;
+    height: 30px;
+}
+
+.compass:hover {
+    background-image: url("../Img/green_sprites.png");
+    background-position: -45px -3px;
+    width: 30px;
+    height: 30px;
+}
+
+.forum:hover {
+    background-image: url("../Img/green_sprites.png");
+    background-position: -90px -3px;
+    width: 30px;
+    height: 30px;
+}
+
 .header-register {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 
